@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <table align='left' width='50%'>
+                <tr> 
+                    <th data-type='first-name' class='first-name'>Имя</th>
+                    <th data-type='last-name' class='last-name'>Фамилия</th>
+                    <th data-type='description' class='description'>Описание</th>
+                    <th data-type='eyes' class='eyes'>Цвет глаз</th> 
+                </tr>
+        </table>
+        <form action="#">
+            <h2>Запишите свои значения</h2>
+            <div class="changed">
+                <label for="first-name">First Name</label>
+                <input id="username" type="text" name="first-name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name='last-name'>
+
+                <label for="about">About</label>
+                <input type="text" name='about'>
+
+                <label for="eyes">Color eyes</label>
+                <input type="text" name='eyes'>
+            </div>
+            <button>change</button>
+        </form>
+        
+    </div>
+    
+     <script src='./index.js'></script>
+</body>
+</html>
